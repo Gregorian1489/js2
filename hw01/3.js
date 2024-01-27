@@ -8,9 +8,7 @@
 const rootElement = document.getElementById('root');
 const targetElement = findElementByClass(rootElement, 'my-class');
 console.log(targetElement); */
-
 console.log("Task 3");
-
 function findElementByClass(rootElem, targetClass) {
     if (rootElem.classList.contains(targetClass)) {
       return rootElem;
